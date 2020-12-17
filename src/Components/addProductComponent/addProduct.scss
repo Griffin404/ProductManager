@@ -1,0 +1,100 @@
+$main-window-bg-color: #31475e;
+$main-font-color: #ffffff;
+$header-font-weight: 600;
+$header-font-size: 28px;
+$add-prod-from-width: 360px;
+$add-prod-from-height: 40px;
+$icon-selection-padding: 10px 10px 0 0;
+
+.add-product-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.add-product-body h5 {
+  font-weight: $header-font-weight;
+  font-size: $header-font-size;
+  color: $main-font-color;
+}
+
+.add-product-form {
+  height: $add-prod-from-height;
+  width: $add-prod-from-width;
+  background-color: $main-window-bg-color;
+  border: none;
+  margin-bottom: 15px;
+  color: $main-font-color;
+  font-size: 15px;
+}
+
+.add-product-form::placeholder {
+  color: #858383;
+  font-size: 14px;
+  font-style: italic;
+}
+
+.empty-image {
+  width: 84px;
+  height: 87px;
+  margin: 10px 0 10px 0;
+  background-image: url(../../icons/empty.png);
+}
+
+.counter-info-body{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: initial;
+
+}
+
+.counter-info{
+    font-weight: $header-font-weight;
+    font-size: $header-font-size;
+    color: $main-font-color;
+    margin: 0 20px 0 20px;
+    width: 50px;
+}
+
+.counter-btn {
+    width: 50px;
+    appearance: none;
+    background: none;
+    font-size: 32px;
+    padding-left: 12px;
+    padding-right: 12px;
+    outline: none;
+    border: 2px solid transparent;
+    color: rgb(112, 76, 182);
+    padding-bottom: 4px;
+    cursor: pointer;
+    background-color: rgba(112, 76, 182, 0.1);
+    border-radius: 2px;
+    transition: all 0.15s;
+}
+
+.add-product-btn{
+    width: 250px;
+    appearance: none;
+    background: none;
+    font-size: 32px;
+    padding-left: 12px;
+    padding-right: 12px;
+    outline: none;
+    border: 2px solid transparent;
+    color: rgb(112, 76, 182);
+    padding-bottom: 4px;
+    cursor: pointer;
+    background-color: rgba(112, 76, 182, 0.1);
+    border-radius: 2px;
+    transition: all 0.15s;
+}
+
+.icon-selection {
+  padding: $icon-selection-padding;
+}
+
+.image-selection-body {
+  height: 120px;
+}

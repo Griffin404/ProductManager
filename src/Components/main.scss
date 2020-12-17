@@ -1,0 +1,25 @@
+$main-bg-color: #181818;
+$main-body-margin: 70px 20% 0 20%;
+$main-icon-width: 64px;
+
+body {
+  background-color: $main-bg-color;
+}
+
+.container {
+  text-align: center;
+}
+
+.main-app-body {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+  margin: $main-body-margin;
+}
+
+.icon {
+  width: $main-icon-width;
+  height: auto;
+  cursor: pointer;
+  margin-left: 10px;
+}

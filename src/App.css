@@ -26,6 +26,12 @@
   color: rgb(112, 76, 182);
 }
 
+.add-img {
+  width: 160px;
+  height: auto;
+  cursor: pointer;
+}
+
 @keyframes App-logo-float {
   0% {
     transform: translateY(0);

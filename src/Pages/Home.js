@@ -1,13 +1,13 @@
-import React, { useState } from 'react';
-import { useSelector, useDispatch } from 'react-redux';
+import React from 'react';
 import { Container } from 'react-bootstrap';
-import { AddProd } from '../Components/AddProd';
-import { ProdList } from '../Components/ProdList'
+import { AddProd } from '../Components/addProductComponent/AddProd';
+import { ProdList } from '../Components/productListComponent/ProdList'
+import '../Components/main.scss';
 
 export function Home() {
 
   return (
-    <Container>
+    <Container className='main-app-body'>
       <AddProd />
       <ProdList />
     </Container>
